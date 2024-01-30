@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <h1>Investment Hub</h1>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#investors">For Investors</a></li>
+                <li><a href="#entrepreneurs">For Entrepreneurs</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to Investment Hub</h2>
+        <p>Connecting investors with innovative ideas.</p>
+        <!-- Add any introductory content here -->
+    </section>
+
+    <!-- For Investors Section -->
+    <section id="investors">
+        <h2>For Investors</h2>
+        <p>Discover promising investment opportunities.</p>
+        <!-- Include a list of featured projects or categories -->
+        <div id="featured-projects">
+            <!-- Example project card -->
+            <div class="project-card">
+                <h3>Project Name 1</h3>
+                <p>Description of the project...</p>
+                <a href="project1.html">Learn More</a>
+            </div>
+            <!-- Repeat the above structure for more projects -->
+        </div>
+    </section>
+
+    <!-- For Entrepreneurs Section -->
+    <section id="entrepreneurs">
+        <h2>For Entrepreneurs</h2>
+        <p>Connect with potential investors for your ideas.</p>
+        <!-- Include a form for entrepreneurs to submit their ideas -->
+        <form action="submit_idea.php" method="post">
+            <label for="ideaName">Idea Name:</label>
+            <input type="text" id="ideaName" name="ideaName" required>
+
+            <label for="ideaDescription">Idea Description:</label>
+            <textarea id="ideaDescription" name="ideaDescription" required></textarea>
+
+            <button type="submit">Submit Idea</button>
+        </form>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about Investment Hub and our mission.</p>
+        <!-- Include information about the team, mission, etc. -->
+    </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Investment Hub. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
