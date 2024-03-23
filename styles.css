@@ -22,7 +22,7 @@ body{
     font-size: 1.3rem;
     font-weight: 600;
 }
-.nav-links a {
+.nav-links ul li a {
     text-decoration: none;
 }
 footer{
